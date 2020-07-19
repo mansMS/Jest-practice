@@ -1,0 +1,62 @@
+{
+  "name": "jest-practice",
+  "version": "1.0.0",
+  "description": "Practice webpack, react, redux, typescript, babel, jest, scss",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development npx webpack --mode development",
+    "build": "cross-env NODE_ENV=production npx webpack --mode production",
+    "watch": "cross-env NODE_ENV=development npx webpack --mode development --watch",
+    "start": "cross-env NODE_ENV=development webpack-dev-server --mode development --open",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mansMS/Jest-practice.git"
+  },
+  "browserslist": "> 0.25%, not dead",
+  "keywords": [
+    "webpack",
+    "react",
+    "redux",
+    "typescript",
+    "babel",
+    "jest",
+    "scss"
+  ],
+  "author": "ms <snam1995@mail.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mansMS/Jest-practice/issues"
+  },
+  "homepage": "https://github.com/mansMS/Jest-practice#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/polyfill": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "@babel/preset-typescript": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^6.0.3",
+    "cross-env": "^7.0.2",
+    "css-loader": "^3.6.0",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.14.1",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "sass": "^1.26.10",
+    "sass-loader": "^9.0.2",
+    "style-loader": "^1.2.1",
+    "terser-webpack-plugin": "^3.0.7",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
